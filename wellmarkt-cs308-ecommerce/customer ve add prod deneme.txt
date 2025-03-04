@@ -1,0 +1,85 @@
+//ProductServices prodServ = new ProductServices(prodDAO);
+		//ProductController prodCont = new ProductController(prodServ);
+		
+		/*CustomerServices custServ = new CustomerServices(custDAO);
+		CustomerController custCont = new CustomerController(custServ);
+		
+		Wishlist wishlist = new Wishlist(
+	        "C12345",              // cID (Customer ID)
+	        "P67890",              // pID (Product ID)
+	        LocalDateTime.now(),   // addedAt (when the product was added to the wishlist)
+	        "PRICE123"             // priceID (price identifier)
+	    );
+
+        // Initialize ShoppingCart with sample data
+        ShoppingCart cart = new ShoppingCart(
+            "C12345",              // cID (Customer ID)
+            "PRICE123",            // priceID (price identifier)
+            "P67890",              // pID (Product ID)
+            1,                     // isBuy (indicator of whether the item is bought or not)
+            "SID123"               // sID (Shopping session ID or a similar identifier)
+        );
+
+        // Initialize Orders with sample data
+        Order order1 = new Order(
+            "SID123",              // sID (Shopping session ID or a similar identifier)
+            "Processing"           // situation (e.g., "Processing" status)
+        );
+
+        Order order2 = new Order(
+            "SID124",              // sID (another Shopping session ID)
+            "Shipped"              // situation (e.g., "Shipped" status)
+        );
+
+        // Add orders to a list
+        List<Order> orders = new ArrayList<>();
+        orders.add(order1);
+        orders.add(order2);
+
+        // Initialize customer with sample data, including wishlist, cart, and orders
+        Customer customer = new Customer(
+            "C12345", // cID
+            "John",   // firstName
+            "A.",     // middleName
+            "Doe",    // lastName
+            "johndoe@example.com", // email
+            "password123", // password (will be encrypted in the setter)
+            "1234 Elm Street", // address
+            "USA",    // country
+            "555-1234", // phoneNumber
+            LocalDateTime.now(), // createdAt
+            LocalDateTime.now(), // lastLogin
+            wishlist,  // wishlist
+            cart,      // cart
+            orders     // orders
+        );
+        
+        ResponseEntity<Customer> responseCust = custCont.addCustomer(customer);
+        logger.info("Response from addCustomer: " + responseCust.getStatusCode());
+	        
+		
+        /*List<Product> products = Arrays.asList(	
+        new Product("1", "Coffee Maker", "Automatic coffee maker", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9YL_gULeR_w6Vus30JxsM0lGuiHFHmJKG5Q&s",
+                10, true, 4.5, "Kitchen Appliances", "BrewMaster", LocalDateTime.now(), LocalDateTime.now()),
+
+        new Product("2", "Organic Shampoo", "Natural ingredients shampoo", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_jQLYDfXfErKtmy_JLVAyIYfo_Xg8WejCkA&s",
+                15, true, 4.7, "Personal Care", "EcoClean", LocalDateTime.now(), LocalDateTime.now()),
+
+        new Product("3", "Yoga Mat", "Non-slip, eco-friendly yoga mat", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOIIEx2ZMKwL6uBPhC8YEoyXbQK_5bdx7ucw&s",
+                25, true, 4.8, "Fitness", "PeaceMat", LocalDateTime.now(), LocalDateTime.now()),
+
+        new Product("4", "Essential Oils Set", "Aromatherapy oils set", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlKrTPrcQchaJaw8-uqeVXj0MPcXh3aU8EVA&s",
+                20, true, 4.9, "Health & Wellness", "AromaEssence", LocalDateTime.now(), LocalDateTime.now()),
+
+        new Product("5", "Smart Scale", "Bluetooth smart body scale", "https://cdn.corporatefinanceinstitute.com/assets/product-mix3.jpeg",
+                8, true, 4.4, "Health Gadgets", "FitTrack", LocalDateTime.now(), LocalDateTime.now()),
+
+        new Product("6", "Air Purifier", "Compact air purifier with HEPA filter", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRULpYuPcas5DFbICFFgawoEEdeOPuUm9lI2g&s",
+                5, true, 4.6, "Home Appliances", "PureAir", LocalDateTime.now(), LocalDateTime.now()),
+        
+        new Product("7", "Massage Gun", "Portable deep tissue massage gun", "https://cdn.corporatefinanceinstitute.com/assets/products-and-services-1024x1024.jpeg",
+                12, true, 4.3, "Fitness Equipment", "MuscleRelief", LocalDateTime.now(), LocalDateTime.now())
+        );
+        
+        //ResponseEntity<List<Product>> responseProd = prodCont.addAllProducts(products);
+        //logger.info("Response from addAllProducts: " + responseProd.getStatusCode());*/
