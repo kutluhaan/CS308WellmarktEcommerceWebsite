@@ -1,0 +1,51 @@
+.box {
+    height: 30px;
+    display: flex;
+    cursor: pointer;
+    padding: 10px 20px;
+    background: transparent;
+    border-radius: 30px;
+    align-items: center;
+    margin-left: 40px;
+    transition: 0.8s ease;
+}
+
+.box:hover {
+    background: #e1e1e16d;
+    transition: 0.8s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.box:hover input {
+    width: 250px;
+}
+
+.box input {
+    width: 0;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    transition: 0.8s;
+    background: transparent;
+}
+
+input::placeholder {
+    color: #ffffffbf;
+}
+
+/* Updated styles for the button to look like the previous anchor tag */
+.box .search-icon {
+    background: transparent;
+    border: none;
+    color: #ffffffd6;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.8s ease;
+    cursor: pointer;
+}
+
+.box .search-icon:hover {
+    color: #000000bf;
+}

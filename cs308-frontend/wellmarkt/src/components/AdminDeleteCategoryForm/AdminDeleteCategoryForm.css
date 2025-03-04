@@ -1,0 +1,66 @@
+.admin-delete-category-form {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: min-content;
+  }
+  
+  .admin-delete-category-form h2 {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .admin-delete-category-form label {
+    display: block;
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+  
+  .admin-delete-category-form select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .delete-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .delete-main-category-button,
+  .delete-subcategory-button {
+    background-color: #ff4d4d;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .delete-main-category-button:hover,
+  .delete-subcategory-button:hover {
+    background-color: #ff1a1a;
+  }
+  
+  .delete-main-category-button:focus,
+  .delete-subcategory-button:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(255, 77, 77, 0.5);
+  }
+  

@@ -1,0 +1,106 @@
+.admin-page-products {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: manzara;
+    margin-top: 30px;
+
+}
+
+.admin-products-container {
+    padding: 20px;
+    color: #333333; /* Set default text color for content */
+}
+
+.form-container {
+    display: flex; /* Use flexbox for side-by-side forms */
+    gap: 20px; /* Space between forms */
+    margin-bottom: 30px;
+    justify-content: center; /* Center-align forms within the container */
+    margin-top: 30px;
+}
+
+.manage-product-form,
+.delete-product-form {
+    flex: 0 0 40%; /* Reduce width to 40% of the container for both forms */
+    padding: 20px;
+    background-color: #ffffff;
+    color: #333333; /* Ensure dark text on white background */
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.manage-product-form h2,
+.delete-product-form h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+    color: #333333; /* Ensure heading text is dark */
+}
+
+.manage-product-form input,
+.delete-product-form input,
+.manage-product-form textarea,
+.manage-product-form select {
+    width: 100%; /* Full width within the form */
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #333333; /* Ensure form input text is dark */
+}
+
+.submit-button,
+.delete-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%; /* Button spans full form width */
+    font-weight: bold;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+.delete-button:hover {
+    background-color: #b02a37;
+}
+
+.admin-products-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-top: 20px;
+    color: #333333; /* Ensure table text is dark */
+}
+
+.admin-products-table th {
+    background-color: #f0f0f0;
+    color: #333333; /* Dark text for table headers */
+    font-weight: bold;
+    padding: 12px;
+    text-align: center;
+}
+
+.admin-products-table td {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    color: #333333; /* Dark text for table cells */
+}
+
+.admin-products-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.admin-products-table tr:hover td {
+    background-color: #e0f7fa;
+    cursor: pointer;
+}

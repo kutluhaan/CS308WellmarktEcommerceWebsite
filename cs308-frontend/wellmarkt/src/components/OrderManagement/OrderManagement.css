@@ -1,0 +1,66 @@
+.order-management-prodman {
+  max-width: 1200px;
+  margin: 100px auto 2rem;
+  padding: 2rem;
+  background-color: #f8f8f8;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.order-management-prodman h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.order-card-prodman {
+  padding: 1.5rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  margin-bottom: 1.5rem;
+}
+
+.order-header-prodman {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.order-product-prodman {
+  margin-top: 10px;
+  flex: 1 1 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fafafa;
+}
+  
+.order-product-prodman > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+.order-product-prodman select {
+  width: 150px;
+}
+
+.save-button-prodman {
+  margin-top: 0;
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.save-button-prodman:hover {
+  background-color: #0056b3;
+}
+  

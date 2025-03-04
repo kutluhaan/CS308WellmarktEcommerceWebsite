@@ -1,0 +1,121 @@
+.signup-container {
+    width: 100%;
+    margin-top: 45px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+    background-color: transparent;
+    border-radius: 20px;
+}
+
+.form-holder-signup {
+    backdrop-filter: blur(10px);
+    filter: drop-shadow(0 0 100px rgba(0, 0, 0, 2));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3),
+                0px -4px 10px rgba(255, 255, 255, 0.2);
+}
+
+.signup-form {
+    z-index: 1;
+    min-width: 400px;
+    max-width: 1000px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.name-input-signup,
+.password-input-signup,
+.email-input-signup {
+    margin-top: 30px;
+    display: flex;
+    gap: 10px;
+}
+
+.name-input-signup input,
+.password-input-signup input,
+.email-input-signup input {
+    flex: 1;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.password-input-signup input  {
+    width: 350px;
+}
+
+.signup-form h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.password-holder {
+    display: flex;
+}
+
+.sign-up-styling {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.sign-up-styling .image {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 50px 100px;
+    border-bottom-left-radius: 50px 100px;
+    width: 600px;
+}
+
+.sign-up-styling .top-text {
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    color: white;
+}
+
+.sign-up-styling .bottom-text {
+    position: absolute;
+    font-style: italic;
+    bottom: 40px;
+    left: 50px;
+    padding: 10px; 
+    font-family: "Poppins", sans-serif;  
+    font-size: 25px; 
+    color: white;
+}
+
+.sign-up-wellmarkt-text {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign-up-logo {
+    width: 25px;
+    margin-left: 20px;
+}
+
+.already {
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+}
+
+.already a {
+    font-size: 13px;
+    color: #000;
+    text-decoration: none;
+}

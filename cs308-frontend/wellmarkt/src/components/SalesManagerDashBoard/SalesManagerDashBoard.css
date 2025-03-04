@@ -1,0 +1,61 @@
+/* Overall Dashboard Styling */
+.dashboard-container {
+    margin-top: 120px;
+    margin-bottom: 100px;
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    padding: 20px;
+    max-width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title-container {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .dashboard-title {
+    font-size: 36px;
+    color: #4A90E2;
+    font-weight: 600;
+  }
+  
+  .dashboard-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  .task-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .task-section h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .dashboard-btn {
+    display: inline-block;
+    padding: 12px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #4A90E2;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+  }
+  
+  .dashboard-btn:hover {
+    background-color: #357ABD;
+  }
+  

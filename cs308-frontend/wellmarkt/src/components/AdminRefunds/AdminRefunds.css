@@ -1,0 +1,68 @@
+.admin-refunds {
+    margin: 100px;
+    padding: 40px;
+    margin-top: 120px; /* Ensure space from the navbar */
+    text-align: center;
+    background-color: #f8f9fa; /* Light neutral background */
+    border-radius: 15px; /* Softer rounded corners */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15); /* Stronger shadow for depth */
+}
+
+.admin-refunds h2 {
+    margin-bottom: 30px;
+    color: #333333; /* Dark grey for text */
+    font-size: 2rem; /* Larger heading font */
+    font-weight: bold;
+}
+
+.refund-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 30px 0;
+    font-size: 1rem;
+}
+
+.refund-table th {
+    background-color: #15b197; /* Blue header */
+    color: white; /* White text for header */
+    font-weight: bold;
+    padding: 12px;
+}
+
+.refund-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    color: #555555; /* Neutral grey text */
+    text-align: center;
+}
+
+.refund-table tr:nth-child(even) {
+    background-color: #f9f9f9; /* Subtle alternating row background */
+}
+
+.refund-table tr:hover {
+    background-color: #e9ecef; /* Light grey highlight on hover */
+    transition: background-color 0.3s ease;
+}
+
+.approve-button {
+    padding: 8px 16px;
+    background-color: transparent;
+    color: #28a745; /* Green text for buttons */
+    border: 2px solid #28a745; /* Green border */
+    border-radius: 5px; /* Rounded corners for consistency */
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.approve-button:disabled {
+    background-color: #cccccc;
+    color: #666666; /* Greyed out for disabled buttons */
+    cursor: not-allowed;
+    border: none;
+}
+
+.approve-button:hover:not(:disabled) {
+    background-color: #28a745; /* Green fill on hover */
+    color: white; /* White text on hover */
+}

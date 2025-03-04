@@ -1,0 +1,129 @@
+.product-card {
+  margin: 20px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #0000004b;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 2px 2px 5px 0px rgba(0, 64, 128, 0.1);
+}
+
+.product-card-image {
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+}
+
+.product-card-brand,
+.product-card-price {
+  margin: 0.2rem 0;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.product-card-price {
+  font-size: 1rem;
+  padding: auto;
+  color: white;
+}
+
+.product-card-btn-wishlist {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+
+.heart-empty,
+.heart-filled {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  transition: opacity 0.5s ease;
+}
+
+.heart-empty {
+  opacity: 1;
+}
+
+.heart-filled {
+  opacity: 0; 
+  color: red;
+  transition: opacity 0.3s ease, filter 0.3s ease;
+}
+
+.product-card-btn-wishlist:hover .heart-empty {
+  opacity: 0; 
+}
+
+.product-card-btn-wishlist:hover .heart-filled {
+  opacity: 1; 
+  filter: drop-shadow(0 0 8px red);
+}
+
+.product-card-btn-wishlist.active:hover .heart-filled {
+  filter: none; /* Remove glow when hovered */
+}
+
+.hidden {
+  opacity: 0;
+}
+
+.visible {
+  opacity: 1;
+}
+
+.product-cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  justify-items: center;
+  padding: 20px;
+  margin-top: 60px; /* Add a top margin to push the content below the navbar */
+}
+
+.add-to-cart-button-products-page{
+  margin-top: auto;
+  background-color: #fff;
+  color: #000;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+.add-to-cart-button-products-page:disabled {
+  background-color: #707070;
+  color: #ffffff;
+  cursor: not-allowed;
+}
+
+.add-to-cart-button-products-page:disabled:hover {
+  background-color: #70707095;
+  color: #ffffff;
+  cursor: not-allowed;
+}
+
+.add-to-cart-button-products-page:not(:disabled):hover {
+  background-color: #000;
+  color: #fff
+}

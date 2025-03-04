@@ -1,0 +1,67 @@
+/* src/components/CategoryProducts/CategoryProducts.css */
+.category-products-container {
+    max-width: 1200px;
+    margin: 8rem auto 0 auto; /* Navbar ile çakışmayı önlemek için üst boşluk */
+    padding: 2rem;
+    text-align: center;
+}
+
+.category-products-container h2 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    color: #333;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.product-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    transition: transform 0.2s ease;
+    text-align: left;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    object-fit: cover;
+}
+
+.product-name {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.product-description {
+    font-size: 0.9rem;
+    color: #555;
+}
+.product-rating {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.rating-value {
+    font-size: 0.9rem;
+    margin-left: 5px;
+    color: #333;
+}
+
+.product-price {
+    font-weight: bold;
+    margin-top: 5px;
+}

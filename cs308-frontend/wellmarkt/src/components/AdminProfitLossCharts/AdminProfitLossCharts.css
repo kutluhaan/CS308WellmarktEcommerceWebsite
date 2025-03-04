@@ -1,0 +1,81 @@
+/* RevenueCalculation.css */
+
+/* Outer container - centers everything, sets max width */
+.revenue-calc-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem auto;
+    max-width: 1200px;
+    padding: 0 1rem;
+    margin-top: 10ch;
+  }
+  
+  /* Title style */
+  .revenue-calc-header {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  /* Radio toggle for All Time vs Date Range */
+  .interval-toggle {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* The date-range inputs container */
+  .date-range-inputs {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* The "Load Data" button */
+  .load-data-btn {
+    padding: 0.6rem 1.2rem;
+    background-color: #007bff; 
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+  }
+  
+  .load-data-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Container for both charts */
+  .charts-container {
+    display: flex;
+    flex-wrap: wrap; /* wrap on smaller screens */
+    gap: 2rem;
+    justify-content: center;
+  }
+  
+  /* Individual chart box style */
+  .chart-box {
+    width: 400px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .chart-box h4 {
+    margin-bottom: 1rem;
+    color: #333;
+    font-weight: 600;
+  }
+  
+  /* Ensure chart doesn't exceed container width */
+  .chart-box canvas {
+    max-width: 100% !important;
+  }
+  

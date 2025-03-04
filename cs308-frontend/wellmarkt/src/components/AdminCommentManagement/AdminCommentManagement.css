@@ -1,0 +1,120 @@
+.comment-management {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding: 40px;
+  }
+  
+  .comment-container {
+    margin-top: 80px;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+    max-width: 1100px;
+    width: 100%;
+    border: 1px solid #e0e0e0;
+  }
+  
+  .comments-table-title {
+    font-size: 2.5rem;
+    color: #333333;
+    margin-bottom: 30px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0.5px;
+  }
+  
+  .no-comments {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #888;
+    margin-top: 20px;
+  }
+  
+  .comment-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  .comment-item {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    padding: 25px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .comment-item:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  }
+  
+  .comment-text {
+    flex: 2;
+    font-size: 1.1rem;
+    color: #333;
+    line-height: 1.5;
+    text-align: left;
+    word-wrap: break-word;
+  }
+  
+  .comment-pid {
+    flex: 1;
+    font-size: 1.1rem;
+    text-align: center;
+    color: #666;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  .comment-actions {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+  }
+  
+  .comment-actions button {
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    min-width: 130px;
+    text-align: center;
+    border: none;
+    transition: all 0.3s ease;
+  }
+  
+  .approve-button {
+    background-color: #28a745;
+    color: white;
+    border: 2px solid #28a745;
+  }
+  
+  .approve-button:hover {
+    background-color: #218838;
+    border-color: #218838;
+  }
+  
+  .decline-button {
+    background-color: #dc3545;
+    color: white;
+    border: 2px solid #dc3545;
+  }
+  
+  .decline-button:hover {
+    background-color: #c82333;
+    border-color: #c82333;
+  }
+  
+  

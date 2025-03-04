@@ -1,0 +1,40 @@
+.product-card-sm-all-prods {
+    margin: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #0000004b;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 2px 2px 5px 0px rgba(0, 64, 128, 0.1);
+    height: 400px;
+  }
+  
+  .product-card-image-sm-all-prods {
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .product-card-brand-sm-all-prods,
+  .product-card-info-sm-all-prods {
+    margin: 0.2rem 0;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  .product-cards-container-sm-all-prods {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    padding: 20px;
+    margin-top: 60px; /* Add a top margin to push the content below the navbar */
+  }
+  
+  .sm-all-prods-price-display {
+    font-size: 20px;
+  }

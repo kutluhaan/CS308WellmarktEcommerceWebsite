@@ -1,0 +1,55 @@
+.pm-invoices-container {
+    width: 80%;
+    margin: 100px auto 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .pm-invoices-page-title {
+    color: #000000;
+    margin-bottom: 20px;
+  }
+  
+  .pm-error {
+    color: red;
+    font-size: 16px;
+  }
+  
+  .pm-invoices-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .pm-invoice-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .pm-invoice-id {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .pm-view-button {
+    padding: 10px 15px;
+    background-color: #4caf50;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .pm-view-button:hover {
+    background-color: #45a049;
+  }
+  

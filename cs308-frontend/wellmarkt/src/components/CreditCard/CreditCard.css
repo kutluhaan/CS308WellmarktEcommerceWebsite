@@ -1,0 +1,38 @@
+.credit-card {
+    height: 200px;
+    background: linear-gradient(135deg, #1e5799 0%, #2989d8 50%, #207cca 100%);
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    width: 100%; /* Ensure it fills its flex container */
+}
+
+
+.card-chip {
+    width: 40px;
+    height: 30px;
+    background-color: gold;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.card-number {
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    margin-bottom: 1rem;
+}
+
+.card-details {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+}
+
+.card-holder, .card-expiration {
+    display: flex;
+    flex-direction: column;
+}

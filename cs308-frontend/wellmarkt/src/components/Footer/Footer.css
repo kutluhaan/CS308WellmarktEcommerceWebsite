@@ -1,0 +1,28 @@
+footer {
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  font-size: 12px;
+  background: transparent;
+  text-align: center;
+  position:relative;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  padding: 1rem 0;
+}
+h1 {
+  font-size: 35px;
+}
+
+.address {
+  padding: 10px;
+}
+
+.email {
+  padding: 10px;
+}
+
+.classic {
+  padding: 10px;
+  padding-bottom: 20px;
+}

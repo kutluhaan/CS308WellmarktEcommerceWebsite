@@ -1,0 +1,64 @@
+.manage-product-form {
+    width: 50%; /* Set the width to half of the container */
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto; /* Center the form in the parent container */
+}
+
+.manage-product-form h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+.manage-product-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.manage-product-form input,
+.manage-product-form textarea,
+.manage-product-form select {
+    width: 100%; /* Full width for all inputs, textareas, and dropdowns */
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.manage-product-form input[type="checkbox"] {
+    width: auto; /* Ensure checkboxes don't stretch to full width */
+    margin-right: 10px; /* Add spacing between checkbox and label */
+}
+
+.manage-product-form .submit-button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%; /* Full width button */
+}
+
+.manage-product-form .submit-button:hover {
+    background-color: #b02a37;
+}
+
+.manage-product-form .react-select__control {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .manage-product-form .react-select__multi-value {
+    background-color: #f0f0f0;
+    border-radius: 5px;
+  }
+  
+  .manage-product-form .react-select__menu {
+    z-index: 1000; /* Ensure dropdown is above other elements */
+  }
+  

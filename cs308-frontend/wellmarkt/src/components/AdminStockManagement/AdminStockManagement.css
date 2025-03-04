@@ -1,0 +1,108 @@
+.stock-management-dashboard {
+    margin: 100px;
+    padding: 40px;
+    margin-top: 120px; /* Ensure space from the navbar */
+    text-align: center;
+    background-color: #f8f9fa; /* Light neutral background */
+    border-radius: 15px; /* Softer rounded corners */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15); /* Stronger shadow for depth */
+  }
+  
+  .stock-management-dashboard h1 {
+    margin-bottom: 30px;
+    color: #333333; /* Dark grey for text */
+    font-size: 2rem; /* Larger heading font */
+    font-weight: bold;
+  }
+  
+  .stock-management table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 30px 0;
+    font-size: 1rem;
+  }
+  
+  .stock-management table th {
+    width: 100%;
+    background-color: #007bff; /* Blue header */
+    color: white; /* White text for header */
+    font-weight: bold;
+    padding: auto;
+  }
+  
+  .stock-management table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    color: #555555; /* Neutral grey text */
+    text-align: center;
+  }
+  
+  .stock-management table tr:nth-child(even) {
+    background-color: #f9f9f9; /* Subtle alternating row background */
+  }
+  
+  .stock-management table tr:hover {
+    background-color: #e9ecef; /* Light grey highlight on hover */
+    transition: background-color 0.3s ease;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: space-evenly; /* Spread buttons evenly */
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .add-button,
+  .remove-button {
+    background-color: transparent;
+    color: #007bff; /* Blue text for buttons */
+    padding: 8px 16px;
+    font-size: 0.9rem;
+    border: 2px solid #007bff; /* Blue border */
+    border-radius: 5px; /* Rounded corners for consistency */
+    cursor: pointer;
+    margin: 0 8px; /* Added spacing between buttons */
+    transition: all 0.3s ease;
+  }
+  
+  .add-button:hover {
+    background-color: #007bff; /* Blue fill on hover */
+    color: white; /* White text on hover */
+  }
+  
+  .remove-button {
+    border-color: #dc3545; /* Red border */
+    color: #dc3545; /* Red text */
+  }
+  
+  .remove-button:hover {
+    background-color: #dc3545; /* Red fill on hover */
+    color: white; /* White text on hover */
+  }
+  
+  .manual-input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1rem;
+    margin-right: 10px; /* Space before buttons */
+  }
+  
+  .manual-input:focus {
+    border-color: #007bff; /* Blue outline on focus */
+    outline: none;
+  }
+  
+  .manual-input {
+    -moz-appearance: textfield; /* Removes arrows in Firefox */
+    -webkit-appearance: none; /* Removes arrows in Chrome, Safari, Edge */
+    appearance: textfield; /* General rule for modern browsers */
+  }
+  
+  .manual-input::-webkit-inner-spin-button, 
+  .manual-input::-webkit-outer-spin-button {
+    -webkit-appearance: none; /* Removes arrows in WebKit browsers */
+    margin: 0; /* Prevent any space where arrows were */
+  }

@@ -1,0 +1,185 @@
+.purchase-container {
+    display: flex;
+    justify-content: space-between; /* Ensure space between elements */
+    gap: 2rem;
+    max-width: 1250px;
+    margin: 8rem auto 0 auto;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.purchase-form {
+    flex: 2; /* Allow form to take up available space */
+    min-width: 300px; /* Prevent shrinking too much */
+}
+
+.order-summary-cart-holder {
+    flex: 1; /* Cart takes less space */
+    min-width: 350px; /* Ensure cart is readable */
+}
+
+.spinner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(5px);
+    text-align: center;
+}
+
+.loading-message {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #555;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.purchase-title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 1rem;
+    font-size: 1.5rem; /* Optional for better visibility */
+}
+
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    flex: 1;
+}
+
+.form-group label {
+    margin-bottom: 0.5rem;
+    color: #555;
+}
+
+.form-group input {
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    width: 100%; /* Make input fill the available space */
+    box-sizing: border-box; /* Ensure padding doesn't break layout */
+}
+
+.form-row {
+    display: flex;
+    gap: 1rem;
+}
+
+.purchase-button {
+    width: 100%;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.purchase-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.purchase-button:hover:not(:disabled) {
+    background-color: #45a049;
+}
+
+.credit-card {
+    flex: 1; /* Allow credit card to take up available space */
+    max-width: 300px; /* Optional: Restrict max width for better design */
+}
+
+.invoice-container {
+    border-radius: 10px;
+    padding: 2rem;
+    margin: 2rem auto;
+    max-width: 700px;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+}
+
+.invoice-header {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.invoice-header h3 {
+    font-size: 1.8rem;
+    color: #4CAF50;
+}
+
+.invoice-header p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.invoice-details {
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 1rem;
+}
+
+.invoice-details h4 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: #555;
+}
+
+.invoice-details p {
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.invoice-products h4 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: #555;
+}
+
+.invoice-products ul {
+    list-style: disc inside;
+    padding-left: 0;
+    font-size: 0.95rem;
+}
+
+.invoice-products li {
+    margin-bottom: 0.5rem;
+}
+
+.invoice-products li::marker {
+    color: #4CAF50;
+}
+
+.redirect-button {
+    display: block; /* Makes the button a block element for easier centering */
+    margin: 2rem auto; /* Centers the button horizontally */
+    padding: 0.5rem 1rem; /* Smaller size */
+    font-size: 0.9rem; /* Reduced font size */
+    font-weight: bold;
+    color: white;
+    background-color: #28a745; /* Green color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.redirect-button:hover {
+    background-color: #218838; /* Darker green on hover */
+    transform: translateY(-2px);
+}
+
+.redirect-button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}

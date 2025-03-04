@@ -1,0 +1,60 @@
+/* src/components/Purchase/OrderSummary.css */
+.order-summary {
+    width: 100%; /* Allow it to fill its container */
+    height: 500px; /* Set the max height to 600px */
+    overflow-y: auto; /* Allow vertical scrolling when content exceeds 600px */
+    padding: 1.5rem;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.order-summary h3 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.order-items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.order-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    color: #555;
+    padding: 10px; /* Add padding for some spacing */
+    border-bottom: 1px solid #ddd; /* Optional: Add a separator between items */
+}
+
+.order-total {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    color: #333;
+}
+
+.order-item-actions {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 10px; /* Space the actions from the content */
+  }
+  
+  .action-button {
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .action-button:hover {
+    color: #ff6347;
+  }
+  

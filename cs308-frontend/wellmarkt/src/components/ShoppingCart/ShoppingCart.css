@@ -1,0 +1,168 @@
+.shopping-cart-content {
+  margin-top: 120px; /* Adjust this to match the height of the navbar */
+  background-color: #f9f9f97c;
+  border-radius: 8px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto; /* Centers the element horizontally */
+  padding: 1rem;
+  transition: height 2s ease;
+}
+
+.heading-of-cart {
+  text-align: center;
+}
+  
+.cart-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+  
+.cart-item {
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  gap: 1rem;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto; /* Centers the element horizontally */
+  padding: 1rem;
+  background-color: #22212185;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.2s ease;
+}
+
+.cart-item-image {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.cart-item-details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.manual-quantity-input {
+  font-size: 1rem; /* Match the text size with other elements */
+  text-align: center; /* Center the text inside the input */
+  border: 2px solid #ccc; /* Add a subtle border */
+  border-radius: 8px; /* Smooth the corners */
+  background-color: #f9f9f9; /* Match the background with the cart */
+  color: #333; /* Text color */
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1); /* Add slight inset shadow for depth */
+  outline: none; /* Remove default outline */
+  transition: all 0.3s ease; /* Smooth transitions for hover and focus */
+}
+
+.manual-quantity-input:focus {
+  border-color: #007bff; /* Highlight border on focus */
+  background-color: #fff; /* Make it brighter on focus */
+  box-shadow: 0 0 6px rgba(0, 123, 255, 0.5); /* Add focus glow */
+}
+
+.manual-quantity-input:hover {
+  border-color: #0056b3; /* Slightly darker border on hover */
+}
+
+.manual-quantity-input {
+  -moz-appearance: textfield; /* Removes arrows in Firefox */
+  -webkit-appearance: none; /* Removes arrows in Chrome, Safari, Edge */
+  appearance: textfield; /* General rule for modern browsers */
+}
+
+.manual-quantity-input::-webkit-inner-spin-button, 
+.manual-quantity-input::-webkit-outer-spin-button {
+  -webkit-appearance: none; /* Removes arrows in WebKit browsers */
+  margin: 0; /* Prevent any space where arrows were */
+}
+
+
+.cart-item-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.quantity-increment-button, .quantity-decrement-button {
+  width: 40px; /* Button size should align with the input height */
+  height: 40px;
+  font-size: 1.2rem; /* Slightly larger for better readability */
+  font-weight: bold;
+  text-align: center;
+  color: #fff; /* White text for better contrast */
+  background-color: #232629; /* Matches focus color of input */
+  border: none; /* Remove border for a clean look */
+  border-radius: 8px; /* Smooth corners to match input */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+  cursor: pointer; /* Indicate it's clickable */
+  transition: all 0.3s ease; /* Smooth transition for hover and focus */
+}
+
+.quantity-increment-button:hover, .quantity-decrement-button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+}
+
+.quantity-increment-button:active, .quantity-decrement-button:active {
+  background-color: #003d80; /* Even darker shade when active */
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2); /* Inset shadow for pressed effect */
+}
+
+.quantity-increment-button:focus, .quantity-decrement-button:focus {
+  outline: none; /* Remove default outline */
+  box-shadow: 0 0 6px rgba(0, 123, 255, 0.5); /* Match input focus glow */
+}
+
+.cart-summary {
+  margin-top: 1rem;
+  text-align: right;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.checkout-button, .clear-cart-button {
+  margin: 1rem;
+  padding: 0.8rem 1.5rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.checkout-button:hover, .clear-cart-button:hover {
+  background-color: #0056b3;
+}
+
+.empty-cart-message {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.cart-total-text {
+  margin-right: 20px;
+}
+
+.cart-item.removing {
+  animation: slideOut 2s ease; /* Apply slide and fade out effect */
+}
+
+@keyframes slideOut {
+  0% {
+    transform: translateX(0); /* Start from the current position */
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-100%); /* Slide it out of view */
+    opacity: 0; /* Fade out */
+    background-color: red;
+  }
+}

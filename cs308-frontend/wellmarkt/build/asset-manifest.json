@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7190e59e.css",
+    "main.js": "/static/js/main.d7927b52.js",
+    "static/js/453.f9f25b9c.chunk.js": "/static/js/453.f9f25b9c.chunk.js",
+    "static/media/manzara.png": "/static/media/manzara.f037a297f6abe39ab1ac.png",
+    "index.html": "/index.html",
+    "main.7190e59e.css.map": "/static/css/main.7190e59e.css.map",
+    "main.d7927b52.js.map": "/static/js/main.d7927b52.js.map",
+    "453.f9f25b9c.chunk.js.map": "/static/js/453.f9f25b9c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7190e59e.css",
+    "static/js/main.d7927b52.js"
+  ]
+}

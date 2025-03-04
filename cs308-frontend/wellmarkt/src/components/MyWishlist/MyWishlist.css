@@ -1,0 +1,85 @@
+/* Similar styling to DiscountSettingForm */
+.wishlist-product-card {
+    margin: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #0000004b;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 2px 2px 5px 0px rgba(0, 64, 128, 0.1);
+    height: 500px;
+    width: 250px;
+  }
+  
+  .wishlist-product-card-image {
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .wishlist-product-card-brand,
+  .wishlist-product-card-info {
+    margin: 0.2rem 0;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  .wishlist-product-cards-container {
+    display: flex; /* Use flexbox instead of grid */
+    flex-wrap: wrap; /* Allow wrapping to the next row if needed */
+    gap: 20px; /* Space between the cards */
+    justify-content: flex-start; /* Align items to the left */
+    padding: 20px;
+    margin-top: 60px;
+}
+
+
+  /* Wishlist buttons container */
+  .wishlist-buttons-container {
+    justify-content: space-between;
+    width: 90%;
+    margin-top: 10px;
+  }
+  
+  /* Add to Cart button */
+  .wishlist-add-to-cart-button {
+    margin-top: auto;
+    background-color: #fff;
+    color: #000;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: background-color 0.3s ease;
+    width: 100%;
+  }
+  
+  .wishlist-add-to-cart-button:hover {
+    background-color: transparent;
+    color: #fff;
+  }
+  
+  /* Remove from Wishlist button */
+  .wishlist-remove-button {
+    margin-top: 20px;
+    background-color: #fff;
+    color: #000;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: background-color 0.3s ease;
+    width: 100%;
+  }
+  
+  .wishlist-remove-button:hover {
+    background-color: transparent;
+    color: #ffff;
+  }
+  

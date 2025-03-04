@@ -1,0 +1,128 @@
+/* Form container styling */
+.admin-userform-card {
+    margin: 100px auto 0;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two-column layout */
+    gap: 20px;
+    box-sizing: border-box;
+  }
+  
+  /* Title styling */
+  .admin-userform-title {
+    grid-column: span 2; /* Title spans two columns */
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Label styling */
+  .admin-userform-label {
+    font-weight: bold;
+    color: #444444;
+    font-size: 14px;
+  }
+  
+  /* Input field styling */
+  .admin-userform-input {
+    padding: 12px;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    font-size: 14px;
+    box-sizing: border-box;/* Input spans one column */
+    width: 100%;
+  }
+  
+  /* Full-width inputs for specific fields */
+.admin-userform-input[name="password"],
+.admin-userform-input[name="role"] {
+    grid-column: span 2;
+}
+
+  /* Submit button styling */
+  .admin-userform-submit-button {
+    grid-column: span 2; /* Button spans two columns */
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  .admin-userform-submit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Table styling */
+  .admin-userform-table {
+    margin-top: 40px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff; /* Ensures the table has a white background */
+  }
+  
+  /* Table header styling */
+  .admin-userform-table th {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+  }
+  
+  /* Table row and cell styling */
+  .admin-userform-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+    /*background-color: #ffffff;  White background for all cells */
+  }
+  
+  .admin-userform-table tbody tr {
+    background-color: #ffffff; /* White background for all rows */
+  }
+  
+  .admin-userform-table tbody tr:hover {
+    background-color: #f1f1f1; /* Highlighted background on hover */
+  }
+  
+  /* Action button styling (e.g., delete) */
+  .admin-userform-action-button {
+    color: white;
+    background-color: #dc3545;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .admin-userform-action-button:hover {
+    background-color: #b02a37;
+  }
+  
+  /* "No users found" styling */
+  .admin-userform-no-users {
+    text-align: center;
+    padding: 20px;
+    color: #777;
+    font-size: 16px;
+    background-color: #ffffff; /* White background for the "no users" row */
+    border-bottom: 1px solid #ddd; /* Matches table cell styling */
+  }
+  

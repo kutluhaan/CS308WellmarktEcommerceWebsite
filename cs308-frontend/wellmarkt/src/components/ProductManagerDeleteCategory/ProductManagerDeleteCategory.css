@@ -1,0 +1,112 @@
+.admin-categories-container {
+    padding: 20px;
+    margin-top: 7ch;
+  }
+  
+  .form-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  
+  .admin-categories-table {
+    width: 100%;
+    max-width: 800px; /* Restrict the table width */
+    margin: 0 auto; /* Center-align the table */
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 20px;
+  }
+  
+  .admin-categories-table th,
+  .admin-categories-table td {
+    text-align: center;
+    padding: 12px;
+    border: 1px solid #ddd;
+  }
+  
+  .admin-categories-table th {
+    background-color: #f7f7f7;
+    color: #333333;
+    font-weight: bold;
+  }
+  
+  .admin-categories-table td {
+    background-color: #ffffff;
+    transition: background-color 0.3s ease;
+  }
+  
+  .admin-categories-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .admin-categories-table tr:hover td {
+    background-color: #e0f7fa;
+    cursor: pointer;
+  }
+  
+  /* Compact button styles */
+  .edit-button,
+  .save-button,
+  .cancel-button,
+  .delete-button {
+    display: inline-block;
+    text-align: center;
+    background-color: #007bff; /* Blue for Edit */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+  }
+  
+  .edit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .save-button {
+    background-color: #28a745; /* Green for Save */
+  }
+  
+  .save-button:hover {
+    background-color: #218838;
+  }
+  
+  .cancel-button {
+    background-color: #ffc107; /* Yellow for Cancel */
+  }
+  
+  .cancel-button:hover {
+    background-color: #e0a800;
+  }
+  
+  .delete-button {
+    background-color: #dc3545; /* Red for Delete */
+  }
+  
+  .delete-button:hover {
+    background-color: #c82333;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .admin-categories-table {
+      font-size: 0.9rem; /* Smaller font size for mobile */
+    }
+  
+    .admin-categories-table th,
+    .admin-categories-table td {
+      padding: 8px; /* Reduced padding for compact layout */
+    }
+  
+    .edit-button,
+    .save-button,
+    .cancel-button,
+    .delete-button {
+      font-size: 0.8rem;
+      padding: 5px 8px;
+    }
+  }
+  

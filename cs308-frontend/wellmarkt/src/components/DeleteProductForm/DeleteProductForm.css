@@ -1,0 +1,59 @@
+.admin-delete-product-form {
+  width: 50%; /* Reduce the width for a smaller form */
+  max-width: 400px; /* Optional: Limit the maximum width */
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin: 0 auto; /* Centers the form */
+}
+
+
+.admin-delete-product-form h2 {
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+}
+
+.admin-delete-product-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.admin-delete-product-form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.admin-delete-button {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+
+}
+
+.admin-delete-button:hover {
+  background-color: #b02a37;
+}
+
+.admin-page-products {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image: manzara;
+  margin-top: 30px;
+
+}
+
+.admin-products-container {
+  padding: 20px;
+  color: #333333; /* Set default text color for content */
+}
