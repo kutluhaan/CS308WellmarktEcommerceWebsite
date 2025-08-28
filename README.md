@@ -1,4 +1,4 @@
-🛒 Wellmarkt: Your Modern E-commerce Website
+🛒 Wellmarkt, Your Modern E-commerce Website
 📝 What's This All About?
 Welcome to the Wellmarkt project! This is a modern e-commerce platform built to provide a great shopping experience. It's a full-stack application with both a frontend and a backend, designed to handle everything from user authentication and product listings to shopping carts and order processing. The goal was to create a clean, functional, and responsive site that's easy for shoppers to use.
 
