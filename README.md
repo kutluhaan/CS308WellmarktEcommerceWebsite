@@ -32,28 +32,6 @@ Maven: For managing project dependencies and builds.
 
 MySQL: A robust relational database for storing all the data.
 
-📦 The Folder Breakdown
-├── kutluhaan-cs308wellmarktecommercewebsite/
-│   ├── README.md                          # You're reading this!
-│   ├── cs308-frontend/                    # The frontend part of the project
-│   │   ├── wellmarkt/                     # The main React application
-│   │   ├── src/                           # All the React source code
-│   │   │   ├── App.css
-│   │   │   ├── App.js
-│   │   │   └── ...
-│   │   └── package.json                   # Frontend dependencies
-│   ├── cs308-backend/                     # The backend part of the project
-│   │   ├── pom.xml                        # Backend dependencies (Maven)
-│   │   ├── src/
-│   │   │   └── main/                      # Java source code
-│   │   │       ├── java/
-│   │   │       │   └── com/
-│   │   │       │       └── wellmarkt/     # The main Spring Boot application
-│   │   │       └── resources/
-│   │   │           ├── application.properties # Configuration file
-│   │   │           └── ...
-│   └── (and a few other files...)
-
 🛠️ How to Get Started
 Since this is a full-stack project, you'll need to set up both the backend and the frontend.
 
